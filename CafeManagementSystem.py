@@ -1,5 +1,3 @@
-#we will be using conditional statement and dictionary datatype
-#define menu of restaurant
 menu={
     'Pizza':40,
     'Pasta':50,

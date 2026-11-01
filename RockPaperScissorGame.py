@@ -1,24 +1,3 @@
-#Ask user to make a choice
-#if choice is not valid
-#print error
-#let the computer male the choice
-#print choics(emojis)
-#determine winner
-#ask user to continue or exit
-#terminate
-
-# choices=['r','s','p']#list is mutable so by accident list could be modified(append,remove)
-#use tuple
-
-# if user_choice=='r':
-#     print('🪨')
-# elif user_choice=='paper':
-#     print('📃')
-# else:
-#     print('✂️')
-# or 
-#use dictionary to map key value
-
 import random
 while(True):
  user_choice=input('Rock,Paper,or Scissors? (r/p/s)').lower()
